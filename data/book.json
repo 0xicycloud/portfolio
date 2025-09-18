@@ -1,0 +1,4 @@
+{
+    "Book":{"sx":0, "sy":1, "cols":1,"tilew":32, "tileh": 32, "frames":1, "rows": 8},
+    "endScroll":{"sx":0, "sy":224, "cols":1,"tilew":32, "tileh": 32, "frames":1, "rows":8}
+}
