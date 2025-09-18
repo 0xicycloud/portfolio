@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" class="bg" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="14">
- <tileset firstgid="1" name="TilesExamples" tilewidth="32" tileheight="32" tilecount="91" columns="13">
-  <image source="../image/TilesExamples.png" width="416" height="240"/>
-  <tile id="1">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="16" y="16" width="16" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="2">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="16" width="32" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="3">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="16" width="16" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="14">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="32"/>
-   </objectgroup>
-  </tile>
-  <tile id="16">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="32"/>
-   </objectgroup>
-  </tile>
-  <tile id="43">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="16" y="0" width="16" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="44">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="16" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="46">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="47">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="48">
-   <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="16"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="92" name="Trees" tilewidth="32" tileheight="32" tilecount="32" columns="8">
-  <image source="../image/Trees.png" width="256" height="128"/>
- </tileset>
- <tileset firstgid="124" name="books_byBatuhan" tilewidth="32" tileheight="32" tilecount="8" columns="1">
-  <image source="../image/books_byBatuhan.png" width="32" height="256"/>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-up" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
+ <tileset firstgid="1" name="books_byBatuhan" tilewidth="32" tileheight="32" tilecount="8" columns="1">
+  <image source="../image/fg/books_byBatuhan.png" width="32" height="256"/>
   <tile id="0">
    <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="32"/>
+    <object id="1" x="7" y="4" width="19" height="27"/>
    </objectgroup>
    <animation>
     <frame tileid="0" duration="200"/>
@@ -70,26 +14,96 @@
   </tile>
   <tile id="7">
    <objectgroup draworder="index" id="2">
-    <object id="1" x="0" y="0" width="32" height="32"/>
+    <object id="1" x="7" y="4" width="19" height="26"/>
    </objectgroup>
   </tile>
  </tileset>
- <tileset firstgid="132" name="dm" tilewidth="32" tileheight="32" tilecount="18" columns="18">
-  <image source="../image/dm.png" width="576" height="32"/>
+ <tileset firstgid="9" name="TilesExamples" tilewidth="32" tileheight="32" tilecount="91" columns="13">
+  <image source="../image/fg/TilesExamples.png" width="416" height="240"/>
+  <tile id="1">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="20" y="16" width="12" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="16" width="32" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="16" width="13" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1" y="0" width="31" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="43">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="19" y="0" width="13" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="44">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="12" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="47">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="32" height="16"/>
+   </objectgroup>
+  </tile>
  </tileset>
- <imagelayer id="7" name="sky" repeatx="1">
-  <image source="../image/Sky.png" width="640" height="640"/>
+ <tileset firstgid="100" name="Trees" tilewidth="32" tileheight="32" tilecount="32" columns="8">
+  <image source="../image/fg/Trees.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="132" name="dm" tilewidth="32" tileheight="32" tilecount="18" columns="18">
+  <image source="../image/sprite/dm.png" width="576" height="32"/>
+ </tileset>
+ <imagelayer id="5" name="sky" repeatx="1">
+  <image source="../image/bg/Sky.png" width="640" height="640"/>
  </imagelayer>
- <imagelayer id="8" name="cloud" offsetx="0" offsety="224" repeatx="1">
-  <image source="../image/Clouds.png" width="320" height="320"/>
+ <imagelayer id="6" name="cloud" offsetx="0" offsety="219" repeatx="1">
+  <image source="../image/bg/Clouds.png" width="320" height="320"/>
  </imagelayer>
- <imagelayer id="11" name="rokmt" offsetx="-32" offsety="288" repeatx="1">
-  <image source="../image/Rock Mountains.png" width="320" height="320"/>
+ <imagelayer id="7" name="rm" offsetx="0" offsety="264" repeatx="1">
+  <image source="../image/bg/Rock Mountains.png" width="320" height="320"/>
  </imagelayer>
- <imagelayer id="10" name="mt" offsetx="0" offsety="288" repeatx="1">
-  <image source="../image/Grass Mountains.png" width="320" height="320"/>
+ <imagelayer id="8" name="gm" offsetx="0" offsety="250" repeatx="1">
+  <image source="../image/bg/Grass Mountains.png" width="320" height="320"/>
  </imagelayer>
- <layer id="13" name="fill" width="30" height="20">
+ <layer id="4" name="bg" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,105,106,0,0,105,106,0,0,117,118,0,0,0,0,0,0,105,106,0,0,0,0,
+0,0,0,0,0,0,0,0,113,114,109,110,113,114,115,0,125,126,0,0,0,0,0,0,113,114,115,0,0,0,
+0,0,109,110,0,0,0,0,121,122,117,118,121,122,123,0,0,0,0,0,0,0,0,0,121,122,123,0,109,110,
+0,0,117,118,0,0,0,0,129,130,125,126,129,130,0,0,0,0,0,0,0,76,76,76,129,130,0,0,117,118,
+0,0,125,126,0,0,0,0,0,76,76,76,76,0,0,0,0,0,0,0,76,76,76,76,76,0,0,0,125,126,
+76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,
+76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,24,24,24,76,76,76,76,76,76
+</data>
+ </layer>
+ <layer id="1" name="collision" width="30" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -104,46 +118,23 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,101,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,97,98,99,0,0,0,109,110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,105,106,107,0,0,0,117,118,0,0,0,0,0,0,0,101,102,0,0,0,97,98,99,
-0,0,0,0,0,0,0,113,114,115,0,0,0,0,0,0,0,0,0,0,0,0,109,110,0,0,0,105,106,107,
-0,0,0,0,0,0,0,121,122,123,0,0,0,0,0,0,0,68,68,0,68,68,117,118,0,0,0,113,114,115,
-0,0,0,0,0,0,0,68,0,0,0,0,0,0,0,0,68,68,68,68,68,68,68,0,0,0,0,121,122,123,
-68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,11,11,11,12,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,56,56,56,53,10,63,63,63,12,0,0,0,0,0,
+0,0,0,0,0,0,0,0,10,11,11,11,11,12,0,0,0,0,0,10,23,75,76,77,25,12,0,0,0,0,
+11,11,11,11,11,11,11,11,23,24,24,24,24,25,11,11,11,11,11,23,24,75,76,77,24,25,11,11,11,11,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,75,76,77,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,88,89,90,24,24,24,24,24,24
 </data>
  </layer>
- <layer id="6" name="collision" width="30" height="20">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,2,3,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,44,47,47,47,45,0,2,3,55,55,55,3,4,0,0,0,0,0,0,0,
-0,0,0,0,0,0,2,3,4,0,0,0,0,0,0,2,15,0,67,68,69,0,17,4,0,0,0,0,0,0,
-3,3,3,3,3,3,15,0,17,3,3,3,3,3,3,15,0,0,80,81,82,0,0,17,3,3,3,3,3,3,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="2" name="books">
-  <object id="8" name="About" gid="124" x="88" y="576" width="32" height="32"/>
-  <object id="9" name="discord" gid="124" x="352" y="488" width="32" height="32"/>
-  <object id="10" name="chess" gid="124" x="600" y="496" width="32" height="32"/>
-  <object id="11" name="endScroll" gid="131" x="896" y="584" width="32" height="32"/>
+ <objectgroup id="3" name="books">
+  <object id="2" name="about" gid="1" x="336" y="520" width="32" height="32"/>
+  <object id="5" name="chess" gid="1" x="520" y="464" width="32" height="32"/>
+  <object id="6" name="discord" gid="1" x="704" y="480" width="32" height="32"/>
+  <object id="7" name="endScroll" gid="8" x="920" y="552" width="32" height="32"/>
+  <object id="8" name="startScroll" gid="8" x="80" y="560" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="4" name="player" offsetx="32" offsety="64">
-  <object id="13" name="player" gid="132" x="-24" y="528" width="32" height="32"/>
+ <objectgroup id="2" name="sprite">
+  <object id="1" name="player" gid="132" x="8" y="560" width="32" height="32"/>
  </objectgroup>
 </map>
